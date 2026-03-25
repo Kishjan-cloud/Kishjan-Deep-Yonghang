@@ -6,6 +6,11 @@
 }
 
 @layer base {
+  body {
+    @apply bg-slate-950 text-white;
+    /* Example of where you might be using it */
+  }
+
   :root {
     --color-primary: #00f5ff;
     --color-surface-container-high: #1a1a1a;
